@@ -1,11 +1,11 @@
-# 🩺 Diabetes Risk Prediction — Decision Tree (From Scratch)
+## Diabetes Risk Prediction — Decision Tree (From Scratch)
 
 This project implements a **Decision Tree Classifier** completely **from scratch** in Python to predict diabetes risk based on clinical and lifestyle features.  
 The focus was on **understanding the internals** of tree-based learning, **evaluating performance manually**, and **building interpretability tools** (like SHAP) without external ML libraries.
 
 
 
-## 🚀 Features
+## Features
 
 - **Custom Decision Tree Implementation** — built using pure Python and NumPy.  
 - **Manual Training Pipeline** — includes a self-coded training routine (`My_train`) and prediction flow.  
@@ -16,7 +16,7 @@ The focus was on **understanding the internals** of tree-based learning, **evalu
 
 
 
-## 📊 Dataset
+## Dataset
 The model was trained on a **Diabetes dataset** containing clinical and demographic indicators such as:
 - Polyuria  
 - Polydipsia  
@@ -28,7 +28,7 @@ The model was trained on a **Diabetes dataset** containing clinical and demograp
 All features were label-encoded to prepare for numerical computation.
 
 
-## 🔍 Insights
+## Insights
 Using the approximate SHAP feature importance method, the most influential factors were found to be:
 - **Polyuria**
 - **Partial Paresis**
@@ -39,14 +39,14 @@ Using the approximate SHAP feature importance method, the most influential facto
 These align with known medical correlations for diabetes diagnosis.
 
 
-## 🧩 Future Work
+## Future Work
 - Extend to a **Random Forest or Gradient Boosting** ensemble.  
 - Add **per-instance SHAP visualization**.  
 - Integrate **streamlit-based UI** for real-time predictions.  
 - Benchmark against **scikit-learn DecisionTreeClassifier** for comparison.
 
 
-## ⚙️ Requirements
+## Requirements
 - Python 3.8+
 - NumPy  
-- Matplotlib (for plotting feature importance)
+- Matplotlib
